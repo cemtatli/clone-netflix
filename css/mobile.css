@@ -1,0 +1,106 @@
+/* Responsive */
+@media screen and (max-width: 950px) {
+  .hideT {
+    display: none;
+  }
+  .header {
+    height: 600px;
+  }
+  .header-top .logo {
+    width: 100px;
+    top: 30%;
+    left: 5%;
+  }
+  .header-content h1 {
+    font-size: 3.15rem;
+    line-height: 1;
+  }
+
+  .header-content h2 {
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+
+  .header-content h3 {
+    font-size: 0.9rem;
+    line-height: 1;
+  }
+  .header-content p {
+    font-size: 1.25rem;
+  }
+  .content-inner {
+    padding: 5rem 1rem;
+  }
+  .content-inner .col {
+    width: 100%;
+    float: none;
+    margin: auto;
+    text-align: center;
+  }
+  .content-img {
+    padding: 10%;
+  }
+  .btn {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+  .btn-xl {
+    font-size: 1.35rem;
+    padding: 1.3rem 2rem;
+  }
+  .btn-icon {
+    padding: 4px;
+  }
+  .text-xl {
+    font-size: 2.5rem;
+  }
+  .text-lg {
+    font-size: 1.25rem;
+  }
+  .accordion {
+    font-size: 1.25rem;
+    padding: 17px;
+  }
+  .accordion:after {
+    top: 10px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header {
+    height: 400px;
+  }
+  .header-content {
+    margin-top: 3rem;
+  }
+  .header-content h1 {
+    font-size: 1.65rem;
+  }
+
+  .header-content h2 {
+    font-size: 1.15rem;
+  }
+  .header-content h3 {
+    font-size: 1rem;
+    line-height: 1.15;
+  }
+  .content-img {
+    padding: 5%;
+  }
+  .btn-xl {
+    font-size: 1rem;
+    padding: 1.2rem 1.6rem;
+  }
+  .text-xl {
+    font-size: 1.8rem;
+  }
+  .text-lg {
+    font-size: 1.1rem;
+  }
+  .footer {
+    padding: 2rem;
+  }
+  .footer ul {
+    width: 50%;
+  }
+}
